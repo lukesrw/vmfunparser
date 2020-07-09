@@ -1,0 +1,6 @@
+node_modules
+tsconfig.tsbuildinfo
+.github
+tsconfig.json
+/src
+/lib/src/test

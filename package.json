@@ -1,0 +1,22 @@
+{
+    "name": "vmfunparser",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./lib/src/index",
+    "scripts": {
+        "clean": "node lib/clean",
+        "build": "npm run clean && tsc",
+        "test": "npm run build && mocha lib/src/test"
+    },
+    "keywords": [],
+    "author": "Luke Wilson <lukesrw@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/chai": "^4.2.11",
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^14.0.20",
+        "chai": "^4.2.0",
+        "mocha": "^8.0.1",
+        "vmfparser": "^1.1.1"
+    }
+}
