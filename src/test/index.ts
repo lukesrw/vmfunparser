@@ -1,3 +1,5 @@
+/*global describe it*/
+
 /**
  * Node.js modules
  */
@@ -7,8 +9,8 @@ import { join } from "path";
 /**
  * Npm packages (for testing)
  */
-const vmfparser = require("vmfparser");
 import * as chai from "chai";
+const vmfparser = require("vmfparser");
 
 /**
  * Self
