@@ -2,11 +2,11 @@
     "name": "vmfunparser",
     "version": "1.0.0",
     "description": "",
-    "main": "./lib/src/index",
+    "main": "./dist/src/index",
     "scripts": {
-        "clean": "node lib/clean",
+        "clean": "node dist/clean",
         "build": "npm run clean && tsc",
-        "test": "npm run build && mocha lib/src/test"
+        "test": "npm run build && mocha dist/src/test"
     },
     "keywords": [],
     "author": "Luke Wilson <lukesrw@gmail.com>",

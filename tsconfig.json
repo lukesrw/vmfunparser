@@ -4,7 +4,7 @@
         "target": "ESNext",
         "module": "commonjs",
         "sourceMap": true,
-        "outDir": "lib/src",
+        "outDir": "dist/src",
         "rootDir": "src",
         "removeComments": true,
         "declaration": true,
