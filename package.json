@@ -8,7 +8,15 @@
         "build": "npm run clean && tsc",
         "test": "npm run build && mocha dist/src/test"
     },
-    "keywords": [],
+    "keywords": [
+        "vmf",
+        "unparser",
+        "hammer",
+        "source-engine",
+        "valve",
+        "map",
+        "format"
+    ],
     "author": "Luke Wilson <lukesrw@gmail.com>",
     "license": "ISC",
     "devDependencies": {
