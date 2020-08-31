@@ -20,11 +20,11 @@
     "author": "Luke Wilson <lukesrw@gmail.com>",
     "license": "ISC",
     "devDependencies": {
-        "@types/chai": "^4.2.11",
+        "@types/chai": "^4.2.12",
         "@types/mocha": "^7.0.2",
-        "@types/node": "^14.0.20",
+        "@types/node": "^14.6.2",
         "chai": "^4.2.0",
-        "mocha": "^8.0.1",
+        "mocha": "^8.1.3",
         "vmfparser": "^1.1.1"
     }
 }
